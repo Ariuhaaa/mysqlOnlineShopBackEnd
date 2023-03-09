@@ -1,0 +1,36 @@
+
+GET http://localhost:6600/api/employee?emp_no=10001
+content-type: application/json
+
+###
+
+GET http://localhost:6600/api/employees?limit=100
+content-type: application/json
+
+###
+
+PUT http://localhost:6600/api/employee?emp_no=500004
+content-type: application/json
+
+{
+    "first_name": "Georgi",
+    "gender": "M"
+}
+
+###
+
+POST http://localhost:6600/api/employee
+content-type: application/json
+
+{
+    "birth_date": "1958-05-01",
+    "first_name": "testFirst",
+    "last_name": "testLast",
+    "gender": "M",
+    "hire_date": "2000-01-01"
+}
+
+###
+
+DELETE http://localhost:6600/api/employee?emp_no=500001
+content-type: application/json
