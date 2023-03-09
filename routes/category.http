@@ -1,0 +1,25 @@
+###
+
+POST http://localhost:8080/api/category
+Content-Type: application/json
+
+{
+    "categoryName" : "Test"
+}
+
+###
+
+PUT http://localhost:8080/api/category
+Content-Type: application/json
+
+{
+    "id": ,
+    "categoryName": "Update"
+}
+
+###
+
+GET http://localhost:8080/api/category
+
+###
+DELETE http://localhost:8080/api/category/b88c9805-1088-4f6a-8147-9cab148b7f13

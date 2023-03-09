@@ -1,0 +1,34 @@
+###
+
+POST http://localhost:8080/api/product
+Content-Type: application/json
+
+{
+    "productName": "",
+    "id": 0,
+    "categoryId": 0,
+    "price": 0,
+    "thumbImage": "",
+    "images": [],
+    "salePercent": 0,
+    "quantity": 0,
+    "description": ""
+}
+
+###
+
+GET http://localhost:8080/api/product
+
+
+
+
+###
+
+DELETE http://localhost:8080/api/product
+
+
+
+
+
+
+

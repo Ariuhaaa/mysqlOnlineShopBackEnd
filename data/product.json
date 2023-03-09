@@ -1,0 +1,22 @@
+[
+    {
+        "id": "9c2cee51-2bab-46b3-a0eb-ded741e612fd",
+        "categoryId": "0a5ad9b2-d0e3-48af-a7cd-b4c21980eb49",
+        "productName": "dfgbnm",
+        "price": "0234",
+        "salePercent": "2345",
+        "quantity": "234",
+        "description": "wefghjbhnvc",
+        "thumbImage": "https://res.cloudinary.com/dno2srn4n/image/upload/v1675823554/onlineShop/ky8b6swqwqiceehugla2.png"
+    },
+    {
+        "id": "e4ddc803-9235-4bc3-83ef-701fe5d94785",
+        "categoryId": "f8fcc5b1-db58-4f0b-96a4-0dc4618928e5",
+        "productName": "",
+        "price": 0,
+        "salePercent": 0,
+        "quantity": 0,
+        "description": "",
+        "thumbImage": "https://res.cloudinary.com/dno2srn4n/image/upload/v1676262844/onlineShop/oy65dihe2ofxfmggvkun.jpg"
+    }
+]

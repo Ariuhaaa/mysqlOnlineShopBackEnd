@@ -1,0 +1,18 @@
+[
+    {
+        "categoryId": "74b302ef-a9ee-47c9-ae59-1a3989149ee2",
+        "categoryName": "Shoes"
+    },
+    {
+        "categoryId": "9d79f832-4cdd-4bd9-ae28-b05d76d1576b",
+        "categoryName": "Clothes"
+    },
+    {
+        "categoryId": "674ab927-646b-42df-b2d0-05cb71ec2606",
+        "categoryName": "Phone"
+    },
+    {
+        "categoryId": "d2a41911-51aa-4ebd-8254-1907a709ceab",
+        "categoryName": "Computer"
+    }
+]
