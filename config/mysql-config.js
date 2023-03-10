@@ -5,7 +5,7 @@ const pool = mysql
     port: 3306,
     user: "root",
     password: "",
-    database: "onlineShop",
+    database: "morning",
   })
   .promise();
 

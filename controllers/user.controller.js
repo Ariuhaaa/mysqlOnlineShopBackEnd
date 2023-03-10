@@ -6,16 +6,18 @@ const myPlaintextPassword = "s0//P4$$w0rD";
 
 const dataFile = process.cwd() + "/data/user.json";
 
-exports.getAll = (request, response) => {
-  fs.readFile(dataFile, "utf-8", (readErr, data) => {
-    if (readErr) {
-      return response.json({ status: false, message: readErr });
+exports.getAll = async (request, response) => {
+  const { limit } = req.query;
+  try {
+    const result = await userService.getUsers(limit);
+    console.log(result);
+    if (result.length > 0) {
+      res.json({ status: true, result });
     }
-
-    const savedData = JSON.parse(data);
-
-    return response.json({ status: true, result: savedData });
-  });
+  } catch (err) {
+    console.log(err);
+    res.json({ status: false, message: err });
+  }
 };
 
 // exports.get = (request, response) => {

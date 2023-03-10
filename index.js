@@ -3,7 +3,7 @@ const express = require("express");
 const cors = require("cors");
 const app = express();
 
-const employeeRouter = require("./routes/employee.routes");
+const employeeRouter = require("./routess/employee.route");
 
 app.use(cors());
 app.use(express.json());
